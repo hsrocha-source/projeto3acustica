@@ -5,29 +5,29 @@ Este projeto implementa e compara diferentes técnicas de codificação e compre
 # 1. Funcionalidades
 
 ## 1.1 Carregamento e Pré-processamento
-- Leitura de arquivos de áudio, normalização e conversão para mono.
+Leitura de arquivos de áudio, normalização e conversão para mono.
 
 ## 1.2 Transformada
-- Aplicação da Transformada Discreta de Cosseno (DCT-IV) com janelamento Hann.
+Aplicação da Transformada Discreta de Cosseno (DCT-IV) com janelamento Hann.
 
 ## 1.3 Quantização Baseline
-- Implementação de um quantizador uniforme escalar.
+Implementação de um quantizador uniforme escalar.
 
 ## 1.4 Quantização Perceptual
-- Implementação de um modelo psicoacústico simplificado utilizando bandas críticas da escala Bark para alocação dinâmica de bits baseada na energia das bandas.
+Implementação de um modelo psicoacústico simplificado utilizando bandas críticas da escala Bark para alocação dinâmica de bits baseada na energia das bandas.
 
 ## 1.5 Benchmarking com LAME
-- Utilização da biblioteca lameenc para gerar arquivos MP3 reais para comparação.
+Utilização da biblioteca lameenc para gerar arquivos MP3 reais para comparação.
 
 ## 1.6 Otimização de Bitrate
-- Algoritmo de busca binária para encontrar os parâmetros de quantização ideais (delta ou fator de qualidade) que atinjam bitrates alvo (64, 96, 128 kbps).
+Algoritmo de busca binária para encontrar os parâmetros de quantização ideais (delta ou fator de qualidade) que atinjam bitrates alvo (64, 96, 128 kbps).
 
 ## 1.7 Avaliação de Qualidade
 - SNR (Signal-to-Noise Ratio): relação sinal-ruído.
 - PESQ (Perceptual Evaluation of Speech Quality): métrica padronizada para qualidade de voz (MOS-LQO).
 
 ## 1.8 Visualização
-- Geração de gráficos comparativos de desempenho e espectrogramas.
+Geração de gráficos comparativos de desempenho e espectrogramas.
 
 # 2. Pré-requisitos
 
