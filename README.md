@@ -1,6 +1,6 @@
 # Análise e Comparação de Algoritmos de Compressão de Áudio
 
-Este projeto implementa e compara diferentes técnicas de codificação e compressão de áudio. O código realiza a análise de sinais de voz e sinais sintéticos (senóide e ruído branco) utilizando três abordagens principais: quantização uniforme (Baseline), quantização perceptual baseada na escala Bark e o codificador MP3 padrão da indústria (LAME).
+Este projeto implementa e compara diferentes técnicas de codificação e compressão de áudio. O código realiza a análise de sinais de voz e sinais sintéticos (senóide e ruído branco) utilizando três abordagens principais: quantização uniforme (Baseline), quantização perceptual baseada na escala Bark e o codificador MP3 LAME.
 
 # 1. Funcionalidades
 
