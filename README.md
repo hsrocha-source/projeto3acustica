@@ -54,7 +54,7 @@ pip install numpy scipy soundfile librosa pesq matplotlib lameenc pandas
 - Comentar linhas referente ao google.colab e drive.mount ao executar localmente.
 
 ## 4.2 Sinais Sintéticos
-- O código gera automaticamente test_sine.wav e test_noise.wav para testes com sinais determinísticos e estocásticos.
+O código gera automaticamente test_sine.wav e test_noise.wav para testes com sinais determinísticos e estocásticos.
 
 # 5. Como Executar
 
